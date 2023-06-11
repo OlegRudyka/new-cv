@@ -1,0 +1,111 @@
+body { 
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+    font-family: 'alkatra', 'sans-serif';
+    /* font-size: 2em; */
+
+}
+h1 {
+    font-family: 'satisfy';
+    margin-top: 0;
+    font-size: 5rem;
+}
+h2 {
+    font-family: 'roboto';
+    font-size: 2,5rem;
+    margin: 80px;
+}
+h3 {
+    font-family: 'roboto';
+}
+.top-block {
+    padding-top: 80px;
+    position: relative;
+    background-color: #faedcd
+}
+.top-cloud {
+    position: absolute;
+    top:60px;
+    right: 350px;
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+
+}
+.skill-item {
+    width: 50%;
+    margin: 110px auto;
+    text-align: left;
+    line-height: 2;
+    
+} 
+.laptop {
+    width: 25%;
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 50px; 
+    position: relative;
+} 
+.browser {
+    width: 20%;
+    float: right;
+    margin: 30px;
+    position: relative;
+}
+.info-image {
+    width: 15%;
+}
+.bottom-container {
+    background-color: #faedcd;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+.copyright {
+    font-size: 0,75rem;
+    color: #aa3b18;
+}
+.btn {
+    background: #e4c1f9;
+    background-image: -webkit-linear-gradient(top, #e4c1f9, #a9def9);
+    background-image: -moz-linear-gradient(top, #e4c1f9, #a9def9);
+    background-image: -ms-linear-gradient(top, #e4c1f9, #a9def9);
+    background-image: -o-linear-gradient(top, #e4c1f9, #a9def9);
+    background-image: linear-gradient(to bottom, #e4c1f9, #a9def9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #6d6875;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.footer-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #aa3b18;
+}
+.footer-link:hover {
+    color: #a3b18a;
+}
+/* .architecture-description {
+    clear: left; 
+}
+.teamwork {
+    clear: right;
+}  */
